@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Miner.cpp">
+      <Filter>Cpp File\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="MinerStateMachine.cpp">
+      <Filter>Cpp File\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="Sheep.cpp">
+      <Filter>Cpp File\Sheep</Filter>
+    </ClCompile>
+    <ClCompile Include="SheepStateMachine.cpp">
+      <Filter>Cpp File\Sheep</Filter>
+    </ClCompile>
+    <ClCompile Include="Wolf.cpp">
+      <Filter>Cpp File\Wolf</Filter>
+    </ClCompile>
+    <ClCompile Include="WolfStateMachine.cpp">
+      <Filter>Cpp File\Wolf</Filter>
+    </ClCompile>
+    <ClCompile Include="Idle.cpp">
+      <Filter>Cpp File\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Mining.cpp">
+      <Filter>Cpp File\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Pasture.cpp">
+      <Filter>Cpp File\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Walk.cpp">
+      <Filter>Cpp File\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Wander.cpp">
+      <Filter>Cpp File\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>Cpp File\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsMove.cpp">
+      <Filter>Cpp File\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringBehaviours.cpp">
+      <Filter>Cpp File\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Cpp File\Other</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Agent.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringBehaviors.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsMove.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="MinerStateMachine.h">
+      <Filter>Header File\Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="Miner.h">
+      <Filter>Header File\Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="Idle.h">
+      <Filter>Header File\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Mining.h">
+      <Filter>Header File\State</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header File\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Walk.h">
+      <Filter>Header File\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Wolf.h">
+      <Filter>Header File\Wolf</Filter>
+    </ClInclude>
+    <ClInclude Include="WolfStateMachine.h">
+      <Filter>Header File\Wolf</Filter>
+    </ClInclude>
+    <ClInclude Include="Wander.h">
+      <Filter>Header File\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Sheep.h">
+      <Filter>Header File\Sheep</Filter>
+    </ClInclude>
+    <ClInclude Include="SheepStateMachine.h">
+      <Filter>Header File\Sheep</Filter>
+    </ClInclude>
+    <ClInclude Include="Pasture.h">
+      <Filter>Header File\State</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Fonts">
+      <UniqueIdentifier>{8bb8624f-d61c-4a87-9134-8acfc428c88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header File">
+      <UniqueIdentifier>{48ca1cc9-06d5-471d-808e-9c1c3853e5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp File">
+      <UniqueIdentifier>{ea52d2af-3c0b-4c20-b3ab-728628bf5ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header File\Miner">
+      <UniqueIdentifier>{a748d1ec-f191-44a0-b96f-21471f7a00f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header File\State">
+      <UniqueIdentifier>{97bbd551-2d54-4f53-8fd6-c387c7122874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header File\Wolf">
+      <UniqueIdentifier>{7fe6f183-4fb2-4b6e-bad0-5a08f3c183b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header File\Sheep">
+      <UniqueIdentifier>{2745afe5-ff88-4eb0-94e2-fcaa8c08b242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp File\Miner">
+      <UniqueIdentifier>{76b33c89-7dfb-4bff-a010-216dd72628db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp File\Sheep">
+      <UniqueIdentifier>{504d411b-31f1-42a7-aa46-d2701a1eebf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp File\Wolf">
+      <UniqueIdentifier>{f95584a2-3ac1-460c-8386-40dee65a5d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp File\State">
+      <UniqueIdentifier>{5025639b-cedc-47c3-aa7d-877d40515036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp File\Other">
+      <UniqueIdentifier>{e4c60d00-b33d-4045-a3b3-579124fb49e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Fonts\arial.ttf">
+      <Filter>Fonts</Filter>
+    </Font>
+    <Font Include="Fonts\arialbd.ttf">
+      <Filter>Fonts</Filter>
+    </Font>
+    <Font Include="Fonts\arialbi.ttf">
+      <Filter>Fonts</Filter>
+    </Font>
+    <Font Include="Fonts\ariali.ttf">
+      <Filter>Fonts</Filter>
+    </Font>
+    <Font Include="Fonts\ARIALN.TTF">
+      <Filter>Fonts</Filter>
+    </Font>
+    <Font Include="Fonts\ARIALNB.TTF">
+      <Filter>Fonts</Filter>
+    </Font>
+    <Font Include="Fonts\ARIALNBI.TTF">
+      <Filter>Fonts</Filter>
+    </Font>
+    <Font Include="Fonts\ARIALNI.TTF">
+      <Filter>Fonts</Filter>
+    </Font>
+    <Font Include="Fonts\ariblk.ttf">
+      <Filter>Fonts</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
